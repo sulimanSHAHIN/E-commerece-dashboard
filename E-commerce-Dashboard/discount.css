@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.MyRoot{
+    padding-bottom: 3rem;
+}
+.Left-Side-bar{
+    background-color: rgb(39, 24, 126);
+    width: 26%;
+    height: 1000px;
+    position: fixed;
+}
+.Web-name{
+    font-size: 2.6rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: #fff;
+    opacity: .8;
+    font-family: oldenburg;
+}
+.E-commerce{
+    font-size: 1.1rem;
+    color: #FFF;
+    opacity: .8;
+    letter-spacing: .2rem;
+    font-family: Times -New Roman;
+    text-align: center;
+    font-weight: bold;
+}
+.Left-Stick{
+    height: 1.4rem;
+    width: 15.9%;
+    position: fixed;
+    top: 20%;
+    right: 74%;
+    background-color: #fff;
+}
+.Option{
+    color: #ffd6cc;
+    margin-top: 6rem;
+    margin-left: 3rem;
+    font-size: 1.1rem;
+    font-family: Oldenburg;
+}
+.Option li{
+    list-style: none;
+    border-bottom: 1px solid white;
+    padding: 1rem 0rem .6rem .6rem;
+    margin-right: 4rem;
+    letter-spacing: .1rem;
+}
+.Right-Body{
+    width: 74%;
+    position: relative;
+    left: 26%;
+}
+.Search-input{
+    border-radius: 0 1rem 0 0;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 26rem;
+    height: 2.5rem;
+    
+}
+.Search-Icon{
+    background-color: rgb(39, 24, 126);
+    width: fit-content;
+    padding: 0.4rem 0.8rem;
+    border-radius: 1rem 0 0 1rem;
+    border: none;
+    color: white;
+}
+.Navbar-search{
+    border-radius: 1rem 0 0 1rem;
+    height: 2.5rem;
+    margin-right: 2rem;
+}
+/*  */
+.Result{
+    background-color: #f5f1f1;
+    width: 100%;
+    max-height: 6rem;
+    border-radius: 0 0 1rem 1rem;
+    overflow-y: scroll;
+    box-shadow: 6px 6px 15px rgb(59 59 59 / 77%);
+
+}
+.Result-name{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 400;
+}
+.ImgResult{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.One-result{
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+.Navbar{
+    width: 80%;
+    padding-top: 1px;
+    box-shadow: 6px 6px 15px rgb(59 59 59 / 77%);
+    padding-bottom: 4px;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.Dashboard{
+    font-size: 1.3rem;
+    color:rgb(255, 134, 0) ;
+    font-family: Oldenburg;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+.Right-stick{
+    height: 1.4rem;
+    width: 15.9%;
+    position: fixed;
+    top: 20%;
+    right:58.15%;
+    background-color: rgb(39, 24, 126);
+    z-index: 1;
+}
+.Product{
+    padding: 2rem;
+    margin: 4rem 4rem;
+    border-radius: 2rem;
+    background-color: rgb(117, 139, 253);
+    box-shadow: 6px 6px 15px #000000;
+    width: 90%;
+}
+.Product-Option{
+    list-style: none;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 15px rgb(0 0 0 / 77%);
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.Product-Option li{
+    margin: 1rem 3.4rem .5rem 0rem;
+    padding-bottom: .8rem;
+    color: #1e2754;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: 1px solid #eee;
+    background: #eee;
+    border-radius: 1rem;
+    height: 12rem;
+}
+.Product-Option-Logo{
+    /* background-color: black; */
+    width: 11rem;
+    height: 11rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    background-position: center;
+}
+.Product-Option-Name{
+    margin-left: .5rem;
+    margin-top: 1rem;
+    font-family: cursive;
+    font-size: 1.3rem;
+}
+.Product-description{
+    font-size: 1.2rem;
+    color: rgb(43, 36, 36);
+    font-size: 1.1rem;
+    margin: 1rem 1rem;
+}
+.Discount-data{
+    margin-left: 2rem;
+}
+.Price-data{
+    font-size: 1.1rem;
+    margin-left: 1rem;
+} 
+.Option li:hover{
+    font-weight: bold;
+    color: rgb(117, 139, 253);
+}
+ .Old-price-value{
+    color: red;
+    text-decoration: line-through;
+    font-style: italic;
+    margin-left: .3rem;
+}
+.New-price-value{
+    color: green;
+    font-style: italic;
+    margin-left: .3rem;
+
+}
+.SPOLD{
+    color: red;
+    margin-left: .3rem;
+}
+.SPNEW{
+    color: green;
+    margin-left: .1rem;
+}
+.Discount-rating{
+    color: yellow;
+    font-size: 6rem;
+    text-align: center;
+    letter-spacing: 1rem;
+    transform: translateY(-10rem);
+    margin-left: 12rem;
+} 
+/* .Name-section{
+    font-size: 1.8rem;
+    color: #ff3300;
+    font-weight: 700;
+    font-family: Times -New Roman;
+    text-align: center;
+    margin-bottom: 1rem;
+} */

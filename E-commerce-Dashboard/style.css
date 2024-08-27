@@ -1,0 +1,414 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.MyRoot{
+    padding-bottom: 3rem;
+}
+.Left-Side-bar{
+    background-color: rgb(39, 24, 126);
+    width: 26%;
+    height: 1000px;
+    position: fixed;
+}
+.Web-name{
+    font-size: 2.6rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: #fff;
+    opacity: .8;
+    font-family: oldenburg;
+}
+.E-commerce{
+    font-size: 1.1rem;
+    color: #FFF;
+    opacity: .8;
+    letter-spacing: .2rem;
+    font-family: Times -New Roman;
+    text-align: center;
+    font-weight: bold;
+}
+.Left-Stick{
+    height: 1.4rem;
+    width: 15.9%;
+    position: fixed;
+    top: 20%;
+    right: 74%;
+    background-color: #fff;
+}
+.Option{
+    color: rgb(255, 210, 215);
+    margin-top: 6rem;
+    margin-left: 3rem;
+    font-size: 1.1rem;
+    font-family: Oldenburg;
+}
+.Option li:hover{
+    font-weight: bold;
+    color: rgb(117, 139, 253);
+}
+.Option li{
+    list-style: none;
+    border-bottom: 1px solid rgb(255, 210, 215);
+    padding: 1rem 0rem .6rem .6rem;
+    margin-right: 4rem;
+    letter-spacing: .1rem;
+    transition: .3s;
+
+}
+.Right-Body{
+    width: 74%;
+    position: relative;
+    left: 26%;
+}
+.Search-input{
+    border-radius: 0 1rem 0 0;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 26rem;
+    height: 2.5rem;
+}
+.Search-Icon{
+    background-color: rgb(39, 24, 126);
+    width: fit-content;
+    padding: 0.4rem 0.8rem;
+    border-radius: 1rem 0 0 1rem;
+    border: none;
+    color: white;
+}
+.Navbar-search{
+    border-radius: 1rem 0 0 1rem;
+    height: 2.5rem;
+    margin-right: 2rem;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+.Result{
+    background-color: #f5f1f1;
+    width: 100%;
+    max-height: 6rem;
+    border-radius: 0 0 1rem 1rem;
+    overflow-y: scroll;
+    box-shadow: 6px 6px 15px rgb(59 59 59 / 77%);
+
+}
+.Result-name{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 400;
+}
+.ImgResult{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.One-result{
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+.Navbar{
+    width: 80%;
+    padding-top: 1px;
+    box-shadow: 6px 6px 15px rgb(59 59 59 / 77%);
+    padding-bottom: 4px;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.Dashboard{
+    font-size: 1.3rem;
+    color: rgb(255, 134, 0);
+    font-family: Oldenburg;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.Information{
+    padding: 2rem;
+    margin: 8rem 1rem;
+    border-radius: 2rem;
+    background-color: #aea6a6;
+    box-shadow: 6px 6px 15px rgb(0 0 0 / 77%);
+    justify-content: space-around;    
+}
+.Right-stick{
+    height: 1.4rem;
+    width: 15.9%;
+    position: fixed;
+    top: 20%;
+    right:58.15%;
+    background-color: rgb(39, 24, 126);
+}
+.Copon{
+    /* border: 1px solid black; */
+    padding: .8rem 3rem 2rem 1rem;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 15px #000000c4;
+    width: 15rem;
+
+}
+.Cop-color{
+    color: blue;
+    border-left: 1rem solid blue;
+}
+.Cop-color2{
+    color: green;
+    border-left: 1rem solid green;
+}
+.Cop-color1{
+    color: red;
+    border-left: 1rem solid red;
+}
+.Cop-color3{
+    color: orange;
+    border-left: 1rem solid orange;
+}
+.Copon-title{
+    font-size: 1.3rem;
+    font-weight:600;
+}
+.Data{
+    font-size: 1.5rem;
+    color: black;
+    margin-top: .8rem;
+    margin-left: .5rem;
+}
+.Dollar-sign ,.Data i{
+    margin-left: .7rem;
+}
+.Category{
+    padding: 2rem;
+    margin: 8rem 4rem;
+    border-radius: 2rem;
+    background-color: #aea6a6;
+    box-shadow: 6px 6px 15px #000000c4;
+    width: 77%;
+}
+.Category-Option{
+    list-style: none;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 15px rgb(0 0 0 / 77%);
+}
+.Delete-category-button{   
+    color: black;
+    cursor: pointer;
+    font-size: 1.7rem;
+    
+}
+.Category-Option li {
+    border-bottom: 1px solid #1e2754;
+    margin: 1rem 1rem .5rem 0rem;
+    padding-left: 1rem;
+    padding-bottom: .8rem;
+    color: #1e2754;
+    font-size: 1.4rem;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+}
+.Category-Option-Name:hover{
+    transform: translateX(-.4rem);
+    color: rgb(117, 139, 253);
+}
+.Category-Option-Logo{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.Category-Option-Name{
+    margin-right:2rem;
+    cursor: pointer;
+    transition: .3s;
+}
+.Add-category,.Edit-category,.Delete-category{
+    background-color: #222;
+    margin: 0 2rem;
+    padding: 3rem 3rem;
+    color: white;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 15px rgb(0 0 0 / 77%);
+
+}
+.Name-section{
+    font-size: 1.8rem;
+    color: rgb(255, 134, 0);
+    font-weight: 700;
+    font-family: Times -New Roman;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+/* navbar */
+@media (max-width:1100px) and (min-width:713px){
+    .Navbar{
+        width: 95%;
+    }
+    .Search-input{
+        width: 16rem;
+    }
+}
+@media (max-width:712px) and (min-width:600px){
+    .Navbar{
+        width: 98%;
+    }
+    .Search-input{
+        width: 12rem;
+    }
+    .Dashboard{
+        font-size: 1rem;
+    }
+}
+@media (max-width:599px) and (min-width:499px){
+    .Right-Body {
+    width: 80%;
+    left: 20%;
+}
+    .Navbar{
+        width: 98%;
+    }
+    .Search-input{
+        width: 12rem;
+    }
+    .Dashboard{
+        font-size: 1rem;
+    }
+}
+@media (max-width:498px) and (min-width:400px){
+    .Right-Body {
+    width: 100%;
+    left: 0%;
+}
+    .Navbar{
+        width: 100%;
+    }
+    .Search-input{
+        width: 12rem;
+    }
+    .Dashboard{
+        font-size: 1rem;
+    }
+}
+@media (max-width:399px){
+    .Right-Body {
+    width: 100%;
+    left: 0%;
+}
+    .Navbar{
+        width: 100%;
+        display: block !important;
+        height: 6rem;
+    }
+    .Search-input{
+        width: 12rem;
+    }
+    .Dashboard{
+        font-size: 1rem;
+    }
+    .Navbar-search{
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+}
+/* leftbar*/
+
+@media (max-width:1200px) and (min-width:600px){
+    .Option{
+        margin-left:-1rem;
+    }
+}
+@media (max-width:599px) and (min-width:360px){
+    .Option{
+        margin-left:-2rem;
+       
+    }
+}
+@media (max-width:950px) and (min-width:600px){
+    .Web-name{
+        font-size: 2rem;
+    }
+    .E-commerce{
+        font-size: 1rem;
+    }
+}
+@media (max-width:599px) and (min-width:500px){
+    .Web-name{
+        font-size: 1rem;
+    }
+    .E-commerce{
+        font-size: .6rem;
+    }
+    .Left-Side-bar{
+        width: 20%;
+    }
+    .Left-Stick,.Right-stick{
+        display: none;
+    }
+}
+@media (max-width:499px){
+    .Web-name{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .E-commerce{
+    display: none;
+    }
+    .Left-Side-bar{
+        width: 20%;
+    }
+    .Left-Stick,.Right-stick{
+        display: none;
+    }
+    .MyRoot{
+        flex-direction: column;
+    }
+     .Left-Side-bar{
+        position: relative;
+        height: 3rem;
+        display: flex;
+        width: 100%;
+    }
+    .Option{
+         display: flex;
+        margin-top: 0;
+    }
+}
+
+/* body */
+@media (max-width:700px){
+    .Category{
+        width: 98%;
+        margin: 6rem 0;
+    }
+    .Category-Option-Name{
+        font-size: 1rem;
+        margin-right: .7rem;
+    }
+    .Delete-category-button{
+        font-size: 1.2rem;
+
+    }
+}
+@media (max-width:860px) and (min-width:701px) {
+    .Category{
+        width: 98%;
+        margin: 6rem 0;
+    }
+    .Category-Option-Name{
+        font-size: 1.2rem;
+        margin-right: 1rem;
+    }
+    .Delete-category-button{
+        font-size: 1.2rem;
+    }
+}

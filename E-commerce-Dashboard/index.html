@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../fonts/Oldenburg.zip">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="root">
+       <div class="MyRoot w-100 d-flex">
+        <!-- leftbar -->
+        <div class="Left-Side-bar">
+            <div class="Web-name">SPUTIFY</div>
+            <div class="E-commerce">E-COMMERCE</div>
+            <div class="Left-Stick"></div>
+            <ul class="Option">
+                <li class="Home">Home</li>
+                <li class="Offers">Offers</li>
+            </ul>
+            <div class="Wisdom"></div>
+        </div>
+        <!-- rightbar -->
+        <div class="Right-Body">
+            <div class="Navbar d-flex ">
+            <div class="Dashboard">Dashboard</div>
+                <div class="Navbar-search d-flex">
+                    <div class="Search-Icon">
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <div class="InputNresult">
+                    <input type="text" placeholder="Search for.." class="Search-input">
+                        <div class="Result">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Second-right-container">
+                <div class="Right-stick"></div>
+                <!-- <div class="Information d-flex">
+                    <div class="Copon Cop-color ">
+                        <div class="Copon-title">Number of users</div>
+                        <div class="Data d-flex align-items-center">
+                            <div class="Copon-value">6 </div>
+                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                            </div>
+                </div>
+                    <div class="Copon Cop-color1">
+                        <div class="Copon-title">Total sales</div>
+                   <div class="Data d-flex align-items-center">
+                    <div class="Copon-value">267035</div>
+                    <div class="Dollar-sign">S.P</div>
+                   </div>
+                    </div>
+                    <div class="Copon Cop-color2">
+                        <div class="Copon-title">Total Profits</div>
+                   <div class="Data d-flex align-items-center">
+                    <div class="Copon-value">234990.8</div>
+                    <div class="Dollar-sign">S.P</div>
+                </div>
+                    </div>
+                    <div class="Copon Cop-color3">
+                        <div class="Copon-title">Delivery Rent</div>
+                <div class="Data d-flex align-items-center">
+                    <div class="Copon-value">4525</div>
+                    <div class="Dollar-sign">S.P</div>
+                   </div>
+                    </div>
+                </div> -->
+                <div class="Category">
+                    <ul class="Category-Option">
+                        <!-- <li>
+                            <div class="Category-Option11 d-flex w-100 justify-content-between align-items-center">
+                                <div class="Category-Option-Logo"></div>
+                                <div class="Category-Option-Name">Electronics</div>
+                            </div>
+                            <div class="Delete-category-button">X</div>
+                        </li>
+                         -->
+                    </ul>
+                </div>
+                <!-- adding category -->
+                <div class="Add-category">
+                    <div class="Name-section">Add category</div>
+                    <div class="Add-category111  d-flex justify-content-between flex-wrap">
+                        <div class="mb-6 Add-name">
+                            <label for="exampleFormControlInput1" class="form-label"> Category name:</label>
+                            <input type="email" class="form-control " id="addCategoryName">
+                                </div>
+                                <div class="mb-6 Add-name">
+                                    <label for="exampleFormControlInput1" class="form-label"> Category name AR :</label>
+                                    <input type="email" class="form-control " id="addCategoryNameAR">
+                                        </div>
+                                    <div class="mb-3">
+                            <label for="formFile" class="form-label">Category image:</label>
+                            <input class="form-control" type="file" id="addCategoryImage">
+                            
+                                    </div>
+                <button class="btn btn-primary Add-category-button" style="margin-top: 20px;background-color:  rgb(117, 139, 253) !important;width:9rem;height:3rem; font-size: 1.3rem;">Publish </button>
+                        
+                    </div>
+                </div>
+                <!-- editing category -->
+
+                     <div class="Edit-category mt-5">
+                    <div class="Name-section">Edit category</div>
+                <div class="Edit-category111 d-flex justify-content-between align-items-end flex-wrap">
+                <div class="Choose-category ">
+                    <select class="form-select Choose-cat" aria-label="Default select example">
+                        <option selected>Choose the Category</option>
+                    </select>
+                </div>
+                <div class="mb-6 Add-name">
+                <label for="exampleFormControlInput1" class="form-label">The new Category name:</label>
+                <input type="email" class="form-control " id="editCategoryName">
+                    </div>
+                    <div class="mb-6 Add-name">
+                        <label for="exampleFormControlInput1" class="form-label">The new Category name AR:</label>
+                        <input type="email" class="form-control " id="editCategoryNameAR">
+                            </div>
+                        <div class="mb-6 w-50">
+                <label for="formFile" class="form-label">The new Category image:</label>
+                <input class="form-control" type="file" id="editCategoryImage">
+                        </div>
+    <button class="btn btn-primary Edit-category-button" style="background-color: rgb(117, 139, 253)!important;width:9rem;height:3rem; font-size: 1.3rem;">Edit </button>
+            
+            </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./category.js"></script>
+    <script src="./search.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- <script src="./format.js"></script> -->
+</body>
+</html>

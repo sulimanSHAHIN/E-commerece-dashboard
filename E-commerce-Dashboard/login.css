@@ -1,0 +1,65 @@
+.Login-component {
+background-color: black;
+    width: 18.5rem;
+    height: 26rem;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    padding: 2rem;
+    color: white;
+}
+.User-icon{
+    background-color:rgb(117, 139, 253);
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    font-size: 4rem;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    left: 8.6rem;
+    top: -2.5rem;
+}
+.Component input {
+        width: 15rem;
+        border: none;
+        background: none;
+        outline: none;
+        font-size: 1rem;
+        color: white;
+        margin-top: 1rem;
+    }
+label{
+    font-size: 1.2rem;
+    pointer-events: none;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.UnderLine{
+    width: 100%;
+    height: 2px;
+    background-color: #eee;
+    margin-bottom: 1.3rem;
+    margin-top: .5rem;
+}
+.Login-here{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2rem;
+}
+.Confirm{
+    width: 100%;
+    height: 3rem;
+    border-radius: 10rem;
+    background-color:rgb(117, 139, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    cursor: pointer;
+}

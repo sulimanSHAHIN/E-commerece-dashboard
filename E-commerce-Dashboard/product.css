@@ -1,0 +1,356 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.MyRoot{
+    padding-bottom: 3rem;
+}
+.Left-Side-bar{
+    background-color: rgb(39, 24, 126);
+    width: 26%;
+    height: 1000px;
+    position: fixed;
+}
+.Web-name{
+    font-size: 2.6rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: #fff;
+    opacity: .8;
+    font-family: oldenburg;
+}
+.E-commerce{
+    font-size: 1.1rem;
+    color: #FFF;
+    opacity: .8;
+    letter-spacing: .2rem;
+    font-family: Times -New Roman;
+    text-align: center;
+    font-weight: bold;
+}
+.Left-Stick{
+    height: 1.4rem;
+    width: 15.9%;
+    position: fixed;
+    top: 20%;
+    right: 74%;
+    background-color: #fff;
+}
+.Option{
+    color: #ffd6cc;
+    margin-top: 6rem;
+    margin-left: 3rem;
+    font-size: 1.1rem;
+    font-family: Oldenburg;
+}
+.Option li{
+    list-style: none;
+    border-bottom: 1px solid white;
+    padding: 1rem 0rem .6rem .6rem;
+    margin-right: 4rem;
+    letter-spacing: .1rem;
+}
+.Right-Body{
+    width: 74%;
+    position: relative;
+    left: 26%;
+}
+.Search-input{
+    border-radius: 0 1rem 0 0;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 26rem;
+    height: 2.5rem;
+}
+.Search-Icon{
+    background-color: rgb(39, 24, 126);
+    width: fit-content;
+    padding: 0.4rem 0.8rem;
+    border-radius: 1rem 0 0 1rem;
+    border: none;
+    color: white;
+}
+.Navbar-search{
+    border-radius: 1rem 0 0 1rem;
+    height: 2.5rem;
+    margin-right: 2rem;
+}
+/*  */
+.Result{
+    background-color: #f5f1f1;
+    width: 100%;
+    max-height: 6rem;
+    border-radius: 0 0 1rem 1rem;
+    overflow-y: scroll;
+    box-shadow: 6px 6px 15px rgb(59 59 59 / 77%);
+
+}
+.Result-name{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 400;
+}
+.ImgResult{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.One-result{
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+.Navbar{
+    width: 80%;
+    padding-top: 1px;
+    box-shadow: 6px 6px 15px rgb(59 59 59 / 77%);
+    padding-bottom: 4px;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.Dashboard{
+    font-size: 1.3rem;
+    color: rgb(255, 134, 0);
+    font-family: Oldenburg;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+.Right-stick{
+    height: 1.4rem;
+    width: 15.9%;
+    position: fixed;
+    top: 20%;
+    right:58.15%;
+    background-color: rgb(39, 24, 126);
+    z-index: 1;
+}
+.Delete-product-button{   
+    position: absolute;
+    color: white;
+    margin: .7rem 1rem;
+    cursor: pointer;
+}
+.Product{
+    padding: 2rem;
+    margin: 8rem 4rem;
+    border-radius: 2rem;
+    background-color: rgb(117, 139, 253);
+    box-shadow: 6px 6px 15px #000000c4;
+    width: 90%;
+}
+.Product-Option{
+    list-style: none;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 15px rgb(0 0 0 / 77%);
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.Product-Option li{
+    margin: 1rem 3.4rem .5rem 0rem;
+    padding-bottom: .8rem;
+    color: #1e2754;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: 1px solid #eee;
+    background: #eee;
+    border-radius: 1rem;
+    width: 15rem;
+    cursor: pointer;
+}
+.Product-Option-Logo{
+    /* background-color: black; */
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Product-Option-Name{
+    margin-left: .5rem;
+    margin-top: 1rem;
+    font-family: cursive;
+    color: rgb(117, 139, 253);
+}
+.Product-description{
+    font-size: 1rem;
+    color: black;
+    margin-left: .5rem;
+    padding-right: .5rem;
+}
+.Add-Product{
+    background-color: #222;
+    margin: 0 2rem;
+    padding: 3rem 3rem;
+    color: white;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 15px rgb(0 0 0 / 77%);
+
+}
+.Option li:hover{
+    font-weight: bold;
+    color: rgb(117, 139, 253);
+}
+.Name-section{
+    font-size: 1.8rem;
+    color: rgb(255, 134, 0);
+    font-weight: 700;
+    font-family: Times -New Roman;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+/* navbar */
+@media (max-width:1100px) and (min-width:713px){
+    .Navbar{
+        width: 95%;
+    }
+    .Search-input{
+        width: 16rem;
+    }
+}
+@media (max-width:712px) and (min-width:600px){
+    .Navbar{
+        width: 98%;
+    }
+    .Search-input{
+        width: 12rem;
+    }
+    .Dashboard{
+        font-size: 1rem;
+    }
+}
+@media (max-width:599px) and (min-width:499px){
+    .Right-Body {
+    width: 80%;
+    left: 20%;
+}
+    .Navbar{
+        width: 98%;
+    }
+    .Search-input{
+        width: 12rem;
+    }
+    .Dashboard{
+        font-size: 1rem;
+    }
+}
+@media (max-width:498px) and (min-width:400px){
+    .Right-Body {
+    width: 100%;
+    left: 0%;
+}
+    .Navbar{
+        width: 100%;
+    }
+    .Search-input{
+        width: 12rem;
+    }
+    .Dashboard{
+        font-size: 1rem;
+    }
+}
+@media (max-width:399px){
+    .Right-Body {
+    width: 100%;
+    left: 0%;
+}
+    .Navbar{
+        width: 100%;
+        display: block !important;
+        height: 6rem;
+    }
+    .Search-input{
+        width: 12rem;
+    }
+    .Dashboard{
+        font-size: 1rem;
+    }
+    .Navbar-search{
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+}
+/* leftbar*/
+
+@media (max-width:1200px) and (min-width:600px){
+    .Option{
+        margin-left:-1rem;
+    }
+}
+@media (max-width:599px) and (min-width:360px){
+    .Option{
+        margin-left:-2rem;
+       
+    }
+}
+@media (max-width:950px) and (min-width:600px){
+    .Web-name{
+        font-size: 2rem;
+    }
+    .E-commerce{
+        font-size: 1rem;
+    }
+}
+@media (max-width:599px) and (min-width:500px){
+    .Web-name{
+        font-size: 1rem;
+    }
+    .E-commerce{
+        font-size: .6rem;
+    }
+    .Left-Side-bar{
+        width: 20%;
+    }
+    .Left-Stick,.Right-stick{
+        display: none;
+    }
+}
+@media (max-width:499px){
+    .Web-name{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .E-commerce{
+    display: none;
+    }
+    .Left-Side-bar{
+        width: 20%;
+    }
+    .Left-Stick,.Right-stick{
+        display: none;
+    }
+    .MyRoot{
+        flex-direction: column;
+    }
+     .Left-Side-bar{
+        position: relative;
+        height: 3rem;
+        display: flex;
+        width: 100%;
+    }
+    .Option{
+         display: flex;
+        margin-top: 0;
+    }
+}
+/* body */
+@media (max-width:599px){
+    .Product{
+        margin: 6rem 0rem;
+        width: 98%;
+        padding: 1rem;
+    }
+} 
+@media (max-width:800px) and (min-width:599px){
+    .Product{
+        margin: 6rem 1rem;
+        width: 80%;
+        padding: 2rem;
+    }
+} 
